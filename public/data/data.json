@@ -1,0 +1,42 @@
+{
+  "experiencia": [
+    {
+      "id": "exp1",
+      "puesto": "DevOps Engineer - Empresa X (2023)",
+      "detalles": [
+        "Automatización de pipelines CI/CD",
+        "Gestión de infraestructura en la nube",
+        "Monitoreo y seguridad"
+      ]
+    },
+    {
+      "id": "exp2",
+      "puesto": "DevOps Engineer - Empresa Y (2021)",
+      "detalles": [
+        "Administración de servidores Linux",
+        "Implementación de contenedores Docker",
+        "Optimización de despliegues"
+      ]
+    }
+  ],
+  "estudios": [
+    {
+      "id": "est1",
+      "titulo": "DAW - Instituto X (2022)",
+      "detalles": [
+        "Desarrollo de aplicaciones web",
+        "HTML, CSS, JavaScript, PHP",
+        "Proyecto final con Laravel"
+      ]
+    },
+    {
+      "id": "est2",
+      "titulo": "Curso DevOps - Academia Y (2020)",
+      "detalles": [
+        "CI/CD con Jenkins y GitHub Actions",
+        "Docker y Kubernetes",
+        "Automatización de despliegues"
+      ]
+    }
+  ]
+}

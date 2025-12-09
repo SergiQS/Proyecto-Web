@@ -1,0 +1,48 @@
+{
+  "proyectosDevOps": [
+    {
+      "id": "proj1",
+      "nombre": "Pipeline CI/CD con GitHub Actions",
+      "descripcion": "Implementación de un pipeline automatizado para construir, testear y desplegar una aplicación Node.js.",
+      "tecnologias": ["GitHub Actions", "Docker", "Node.js", "AWS ECS"],
+      "resultados": [
+        "Reducción del tiempo de despliegue en un 60%",
+        "Automatización completa del flujo de integración continua",
+        "Despliegues sin downtime"
+      ]
+    },
+    {
+      "id": "proj2",
+      "nombre": "Infraestructura como Código con Terraform",
+      "descripcion": "Creación de una infraestructura reproducible y escalable en AWS usando Terraform.",
+      "tecnologias": ["Terraform", "AWS EC2", "VPC", "S3", "IAM"],
+      "resultados": [
+        "Infraestructura versionada y replicable",
+        "Reducción de errores manuales",
+        "Provisionamiento automático en menos de 5 minutos"
+      ]
+    },
+    {
+      "id": "proj3",
+      "nombre": "Orquestación con Kubernetes",
+      "descripcion": "Migración de una aplicación monolítica a microservicios desplegados en un clúster Kubernetes.",
+      "tecnologias": ["Kubernetes", "Helm", "Docker", "Prometheus", "Grafana"],
+      "resultados": [
+        "Escalado automático basado en carga",
+        "Monitorización centralizada",
+        "Aumento del 40% en la disponibilidad del servicio"
+      ]
+    },
+    {
+      "id": "proj4",
+      "nombre": "Sistema de Logging y Monitorización",
+      "descripcion": "Implementación de un stack de observabilidad para aplicaciones distribuidas.",
+      "tecnologias": ["ELK Stack", "Filebeat", "Metricbeat", "Kibana"],
+      "resultados": [
+        "Detección temprana de errores",
+        "Trazabilidad completa de peticiones",
+        "Reducción del tiempo de resolución de incidencias"
+      ]
+    }
+  ]
+}

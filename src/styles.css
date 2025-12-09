@@ -1,0 +1,33 @@
+.btn-circle {
+  width: 72px;
+  height: 72px;
+}
+.btn {
+  color: aliceblue;
+  border: transparent;
+  background-color: #8C56EB;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  background-color: #826AAB;
+  color: aliceblue;
+  border:  transparent;
+}
+.icon{
+    color: aliceblue;
+}
+
+.circle{
+    background-color: #8C56EB;
+}
+
+.progress-bar {
+  background-color: #8C56EB;
+}
+
+body {
+  background-color: #5a516b;
+}
