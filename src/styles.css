@@ -1,33 +1,257 @@
-.btn-circle {
-  width: 72px;
-  height: 72px;
+/* Paleta base */
+:root {
+  --color-principal: #8C56EB;
+  --color-secundario: #5A516B;
+  --color-texto: #ffffff;
+  --color-fondo: #1e1e2f;
 }
-.btn {
-  color: aliceblue;
-  border: transparent;
-  background-color: #8C56EB;
+
+/* Fondo general */
+body {
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Títulos */
+h1, h2, h3, h4 {
+  color: var(--color-principal);
+}
+
+/* Botones */
+.btn-custom {
+  background-color: var(--color-principal);
+  color: var(--color-texto);
+  border: none;
   transition: background-color 0.3s ease;
 }
 
-.btn:hover,
-.btn:focus,
-.btn:active {
-  background-color: #826AAB;
-  color: aliceblue;
-  border:  transparent;
-}
-.icon{
-    color: aliceblue;
+.btn-custom:hover {
+  background-color: var(--color-secundario);
 }
 
-.circle{
-    background-color: #8C56EB;
+/* Cards */
+.card {
+  background-color: #8b8ba0;
+  border: 1px solid var(--color-secundario);
+  color: var(--color-texto);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border-radius: 12px;
+
+}
+.card:hover {
+  transform: translateY(-8px); /* Se levanta */
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25); /* Sombra más profunda */
 }
 
-.progress-bar {
+.card-title {
+  color: var(--color-principal);
+}
+
+.card-text {
+  color: #ffffff;
+}
+
+/* Enlaces */
+a {
+  color: var(--color-principal);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-secundario);
+  text-decoration: underline;
+}
+
+/* Contenedor centrado */
+.newsletter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background: #1e1e2f;
+  padding: 20px;
+}
+
+/* Tarjeta */
+.newsletter-card {
+  background: #2a2a3d;
+  padding: 40px;
+  border-radius: 16px;
+  max-width: 450px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  border: 1px solid #5A516B;
+}
+
+/* Títulos */
+.newsletter-card h2 {
+  color: #8C56EB;
+  margin-bottom: 10px;
+}
+
+.newsletter-card p {
+  color: #ccc;
+}
+
+/* Input */
+.newsletter-card input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: 1px solid #5A516B;
+  background: #1e1e2f;
+  color: white;
+  outline: none;
+}
+
+/* Botón */
+.newsletter-card button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  background: #8C56EB;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.newsletter-card button:hover {
+  background: #5A516B;
+}
+
+/* Mensaje de éxito */
+.success {
+  color: #8C56EB;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.newsletter-news {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.newsletter-news h3 {
+  color: #8C56EB;
+  margin-bottom: 15px;
+}
+
+.newsletter-news .news-item {
+  background: #2a2a3d;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #5A516B;
+}
+
+.newsletter-news strong {
+  color: #8C56EB;
+}
+
+.newsletter-news p {
+  color: #ccc;
+  margin: 5px 0 0;
+}
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.95rem;
+}
+
+.skill-item label {
+  margin-bottom: 6px;
+  color: #8C56EB;
+  font-weight: bold;
+}
+
+.bar {
+  background-color: #5A516B;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.bar div {
   background-color: #8C56EB;
+  height: 100%;
+  border-radius: 5px;
+  transition: width 0.5s ease;
 }
 
-body {
-  background-color: #5a516b;
+.contacto-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background: #1e1e2f;
+  padding: 20px;
+}
+
+.contacto-card {
+  background: #2a2a3d;
+  padding: 40px;
+  border-radius: 16px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  border: 1px solid #5A516B;
+}
+
+.contacto-card h2 {
+  color: #8C56EB;
+  margin-bottom: 10px;
+}
+
+.contacto-card p {
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.contacto-card input,
+.contacto-card textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #5A516B;
+  background: #1e1e2f;
+  color: white;
+  outline: none;
+}
+
+.contacto-card button {
+  width: 100%;
+  padding: 12px;
+  background: #8C56EB;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.contacto-card button:hover {
+  background: #5A516B;
+}
+
+.success {
+  color: #8C56EB;
+  font-weight: bold;
+  margin-top: 20px;
 }

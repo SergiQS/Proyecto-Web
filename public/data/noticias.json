@@ -1,0 +1,19 @@
+{
+  "noticias": [
+    {
+      "titulo": "GitHub Actions mejora la seguridad",
+      "descripcion": "Nuevas funciones para detectar secretos y proteger pipelines.",
+      "imagen": "/images/GitHub-Actions.jpg"
+    },
+    {
+      "titulo": "Kubernetes 1.32 lanzado",
+      "descripcion": "Incluye mejoras en autoscaling y rendimiento.",
+      "imagen": "/images/kubernetes.jpg"
+    },
+    {
+      "titulo": "Terraform amplía soporte para AWS",
+      "descripcion": "Mejor integración con instancias Graviton.",
+      "imagen": "/images/terraform.png"
+    }
+  ]
+}
