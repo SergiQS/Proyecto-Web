@@ -18,7 +18,6 @@ export default function Estudios() {
             </ul>
           </div>
         </div>
-        {/* Repite para est2, est3 */}
       </div>
     </div>
   );

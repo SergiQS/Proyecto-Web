@@ -2,7 +2,7 @@ import {useState,useEffect} from "react";
 export default function Experiencia() {
     //Creamos el estado vacio al inicio
     //Se guarda dentro del array
-    const [proyecto,setProyecto]= useState([]);
+    const [proyecto, setProyecto]= useState([]);
     //se ejecuta una vez al montar
     useEffect( ()=> {
         //Hacemos fetch al archivo data.json

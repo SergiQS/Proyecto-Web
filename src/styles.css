@@ -1,4 +1,4 @@
-/* Paleta base */
+
 :root {
   --color-principal: #8C56EB;
   --color-secundario: #5A516B;
@@ -6,14 +6,14 @@
   --color-fondo: #1e1e2f;
 }
 
-/* Fondo general */
+
 body {
   background-color: var(--color-fondo);
   color: var(--color-texto);
   font-family: 'Segoe UI', sans-serif;
 }
 
-/* Títulos */
+
 h1, h2, h3, h4 {
   color: var(--color-principal);
 }
@@ -40,8 +40,8 @@ h1, h2, h3, h4 {
 
 }
 .card:hover {
-  transform: translateY(-8px); /* Se levanta */
-  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25); /* Sombra más profunda */
+  transform: translateY(-8px); 
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25); 
 }
 
 .card-title {
